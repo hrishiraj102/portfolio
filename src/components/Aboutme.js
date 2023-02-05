@@ -67,7 +67,8 @@ function Aboutme() {
 
                                 }}
                                 endIcon={<DownloadIcon />}
-                                href="https://drive.google.com/open?id=16QDX0UzMPS-5xO-uovx9pNezj2fpxroc&authuser=hrishiraj102%40gmail.com&usp=drive_fs">
+                                href="https://drive.google.com/open?id=16QDX0UzMPS-5xO-uovx9pNezj2fpxroc&authuser=hrishiraj102%40gmail.com&usp=drive_fs"
+                                target="_blank">
                                 Download CV
                             </Button>
                         </Grid>
