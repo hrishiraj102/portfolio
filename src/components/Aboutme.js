@@ -26,9 +26,9 @@ function Aboutme() {
                             About Me
                         </Typography>
                         <Typography variant="h6" sx={[TypoAboutMe, { mt: "10px", width: "100%" }]}>
-                            Hello, I’m a Hrishiraj from Jalandhar, India. I am a problem solvers and I love to solve data structures and algorithms based problems. Also
-                            I love to work on Web Development, Cloud computing, Devops. Currently, I am pursing B.Tech Computer Science & Engineering degree from Lovely 
-                            Professional University, Phagwara. I'm in the 3rd year. I belong from Assam,a beautiful state located in the north-eastern part of India.
+                            Hello, I’m Hrishiraj from Jalandhar, India. I'm passionate about problem solving and I love solving data structures & algorithm based problems. Also,
+                            I'm working on domains like Web Development, Cloud Computing, Devops, Data Science. Currently, I'm in the third year of pursuing a B.Tech Computer Science & Engineering degree from Lovely
+                            Professional University, Phagwara. I hail from Assam, a beautiful state located in the North-Eastern part of India.
                         </Typography>
                         <Typography variant="h5" sx={[TypoAboutMe, { fontWeight: 500, mt: "30px", width: "100%", mb: "20px" }]} >
                             My Skills
