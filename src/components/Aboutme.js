@@ -3,7 +3,7 @@ import { Grid, Button, Box, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import { TypoAboutMe } from "./AboutmeCSS";
 import DownloadIcon from "@mui/icons-material/Download";
-import { Padding } from "@mui/icons-material";
+
 
 function Aboutme() {
 

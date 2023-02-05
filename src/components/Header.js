@@ -1,19 +1,23 @@
-import React, { useState, useEffect } from "react";
-import { Grid, Box, Container, Button, Typography } from "@mui/material";
+import React from "react";
+import { Grid, Box,Container ,Typography } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
-import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import GitHubIcon from "@mui/icons-material/GitHub";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { typoContact } from "./HeaderCSS";
 import { GitHub, LocationOn, Phone } from "@mui/icons-material";
-import profile from "../assets/profile.png"
+
 import profile1 from "../assets/profile1.jpeg"
 
 
+
+
+
 function Header() {
+
+
 
 
 
@@ -25,8 +29,9 @@ function Header() {
                     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                         <Grid
 
-                            item
-                            xs={6}
+                            
+                            item xs={12} sm={6}
+                            
 
                             sx={{
                                 height: "90vh",
@@ -34,6 +39,7 @@ function Header() {
                                 flexDirection: "column",
                                 justifyContent: "center"
                                 , mt: 10
+                                
 
                             }}
 
@@ -101,7 +107,7 @@ function Header() {
 
                         <Grid
                             item
-                            xs={6}
+                             xs={12} sm={6}
                             sx={{
                                 display: "flex",
                                 justifyContent: "center",
@@ -124,6 +130,7 @@ function Header() {
                             >
                                 <img
                                     src={profile1}
+                                    alt="profile pic"
                                     style={{
                                         height: "350px",
                                         width: "350px",
