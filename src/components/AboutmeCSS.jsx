@@ -1,0 +1,1 @@
+export const TypoAboutMe ={ display:"flex", alignItems:"center",justifyContent:"center"};
