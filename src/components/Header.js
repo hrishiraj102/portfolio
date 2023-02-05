@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Box,Container ,Typography } from "@mui/material";
+import { Grid, Box, Container, Typography } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -24,22 +24,22 @@ function Header() {
     return (
         <div >
             <Box sx={{ width: "100%" }}>
-                <Container >
+                <Container sx={{ mt: 10 }} >
 
                     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                         <Grid
 
-                            
+
                             item xs={12} sm={6}
-                            
+
 
                             sx={{
                                 height: "90vh",
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center"
-                                , mt: 10
-                                
+                                ,
+
 
                             }}
 
@@ -107,11 +107,11 @@ function Header() {
 
                         <Grid
                             item
-                             xs={12} sm={6}
+                            xs={12} sm={6}
                             sx={{
                                 display: "flex",
                                 justifyContent: "center",
-                                alignItems: "center",
+                                alignItems: "center"
 
                             }}
                         >
@@ -125,7 +125,7 @@ function Header() {
                                     display: "flex",
                                     justifyContent: "center",
                                     alignItems: "center",
-                                    borderRadius: "50%", mt: 10
+                                    borderRadius: "50%"
                                 }}
                             >
                                 <img
