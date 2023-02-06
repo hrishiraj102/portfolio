@@ -25,7 +25,7 @@ function Aboutme() {
                         <Typography variant="h3" sx={[TypoAboutMe, { mb: 3, mt: 1 }]}>
                             About Me
                         </Typography>
-                        <Typography variant="h6" sx={[TypoAboutMe, { mt: "10px", width: "100%" }]}>
+                        <Typography variant="h6" sx={[TypoAboutMe, { mt: "10px",ml:2, width: "100%" }]}>
                             Hello, I’m Hrishiraj from Jalandhar, India. I'm passionate about problem solving and I love solving data structures & algorithm based problems. Also,
                             I'm working on domains like Web Development, Cloud Computing, Devops, Data Science. Currently, I'm in the third year of pursuing a B.Tech Computer Science & Engineering degree from Lovely
                             Professional University, Phagwara. I hail from Assam, a beautiful state located in the North-Eastern part of India.
