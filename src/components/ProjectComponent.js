@@ -4,6 +4,7 @@ import { Container, } from "@mui/system";
 import './Project.css'
 
 
+
 function ProjectComponent() {
     const project =
         [
@@ -79,6 +80,10 @@ function ProjectComponent() {
         ]
 
 
+
+
+
+
     return (
         <div>
             <Box>
@@ -90,24 +95,25 @@ function ProjectComponent() {
                         columnSpacing={{ xs: 1, sm: 2, md: 3 }}
                         sx={{
                             display: "flex",
-                            mt: 20
+                            mt: 20,
+                            mb:20
                         }}
                     >
                         <Grid
                             item xs={12} sm={6}
 
                             sx={{
-                                mt: 2
+                                mt: 2,
 
                             }}
 
                         >
-                            <Box className="clothoid-corner"
+                            <Grid className="clothoid-corner"
 
                                 sx={{
 
-
-                                    height: "140vh",
+                                    
+                                    height: "140vh ",
                                     display: "flex",
                                     flexDirection: "column",
                                     justifyContent: "center",
@@ -125,6 +131,7 @@ function ProjectComponent() {
                                             <Box
 
                                                 sx={{
+
                                                     height: "190px",
                                                     width: "90%",
                                                     ml: 2,
@@ -154,7 +161,7 @@ function ProjectComponent() {
                                     )
                                 })}
 
-                            </Box>
+                            </Grid>
 
                         </Grid>
 
@@ -166,11 +173,11 @@ function ProjectComponent() {
 
                         >
 
-                            <Box className="clothoid-corner"
+                            <Grid className="clothoid-corner"
 
                                 sx={{
-
                                     height: "140vh",
+                                    
                                     display: "flex",
                                     flexDirection: "column",
 
@@ -210,7 +217,7 @@ function ProjectComponent() {
                                 })}
 
 
-                            </Box>
+                            </Grid>
 
                         </Grid>
 

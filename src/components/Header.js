@@ -38,7 +38,7 @@ function Header() {
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center"
-                                ,
+                                
 
 
                             }}
