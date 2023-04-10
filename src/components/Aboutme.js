@@ -7,7 +7,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 
 function Aboutme() {
 
-    const skills = ["Problem Solving", "Java Development", "Google Cloud", "Servlet", "JSP", "Spring Boot",
+    const skills = ["Problem Solving", "Java Development","AWS" ,"Google Cloud" , "Servlet", "JSP", "Spring Boot",
         "MySql", "DevOps", "React.js", "JavaScript", "HTML", "CSS", "Data Analysis and Visualization", "Python", "Excel"]
     return (
         <div>

@@ -127,8 +127,8 @@ function ProjectComponent() {
                                 {project.map((item) => {
 
                                     return (
-                                        <div >
-                                            <Box
+                                        < >
+                                            <Grid
 
                                                 sx={{
 
@@ -139,25 +139,29 @@ function ProjectComponent() {
                                                     display: "flex"
                                                 }}
                                             >   <ul>
-
+                                                    <Box>
                                                     <Typography variant="h5" sx={{ fontWeight: 450, mt: 2, color: "#FFFFD0" }}>
                                                         {item.title}
                                                     </Typography>
+                                                    </Box>
                                                     <ol>
+                                                        <Grid sx={{mb:1}}>
                                                         <Typography variant="subtitle1" sx={{ mb: 1, color: "#F3CCFF" }}>
                                                             {item.date}
                                                         </Typography>
+                                                        </Grid>
                                                     </ol>
                                                     <ol>
                                                         <Typography variant="subtitle1" sx={{ fontWeight: 200 }}>
                                                             {item.description}
                                                         </Typography>
+                                                        
                                                     </ol>
 
                                                 </ul>
 
-                                            </Box>
-                                        </div>
+                                            </Grid>
+                                        </>
                                     )
                                 })}
 
