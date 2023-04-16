@@ -7,7 +7,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 
 function Aboutme() {
 
-    const skills = ["Problem Solving", "Java Development","AWS" ,"Google Cloud" , "Servlet", "JSP", "Spring Boot",
+    const skills = ["Problem Solving", "Java Development", "AWS", "Google Cloud", "Servlet", "JSP", "Spring Boot",
         "MySql", "DevOps", "React.js", "JavaScript", "HTML", "CSS", "Data Analysis and Visualization", "Python", "Excel"]
     return (
         <div>
@@ -25,7 +25,7 @@ function Aboutme() {
                         <Typography variant="h3" sx={[TypoAboutMe, { mb: 3, mt: 1 }]}>
                             About Me
                         </Typography>
-                        <Typography variant="h6" sx={[TypoAboutMe, { mt: "10px",ml:2, width: "100%" }]}>
+                        <Typography variant="h6" sx={[TypoAboutMe, { mt: "10px", ml: 2, width: "100%" }]}>
                             Hello, I’m Hrishiraj from Jalandhar, India. I'm passionate about problem solving and I love solving data structures & algorithm based problems. Also,
                             I'm working on domains like Web Development, Cloud Computing, Devops, Data Science. Currently, I'm in the third year of pursuing a B.Tech Computer Science & Engineering degree from Lovely
                             Professional University, Phagwara. I hail from Assam, a beautiful state located in the North-Eastern part of India.
@@ -67,7 +67,7 @@ function Aboutme() {
 
                                 }}
                                 endIcon={<DownloadIcon />}
-                                href="https://drive.google.com/open?id=16QDX0UzMPS-5xO-uovx9pNezj2fpxroc&authuser=hrishiraj102%40gmail.com&usp=drive_fs"
+                                href="https://drive.google.com/file/d/1BLZ7KIUYXXMMoYYfj93NxjAl2rXmY4Vb/view?usp=sharing"
                                 target="_blank">
                                 Download CV
                             </Button>
