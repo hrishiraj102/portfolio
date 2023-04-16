@@ -6,5 +6,5 @@ services:
     image: docker-react-i
     build:
       context: .
-    port:
+    ports:
       - 3000:3000
