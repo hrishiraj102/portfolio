@@ -67,7 +67,7 @@ function Aboutme() {
 
                                 }}
                                 endIcon={<DownloadIcon />}
-                                href="https://drive.google.com/file/d/1BLZ7KIUYXXMMoYYfj93NxjAl2rXmY4Vb/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1BlW6PWkT87onJpTVsQRrEbwy9qewUFCD/view?usp=sharing"
                                 target="_blank">
                                 Download CV
                             </Button>

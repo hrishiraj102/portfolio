@@ -1,15 +1,13 @@
-#Stage1
-FROM node:18-alpine as builder
+# build stage
+FROM node:lts-alpine as build-stage
 WORKDIR /app
-COPY package.json .
-COPY package-lock.json .
+COPY package*.json ./
 RUN npm install
 COPY . .
+RUN npm run build     
 
-
-#Stage 2
-FROM nginx:1.19.0-alpine
-WORKDIR /usr/share/nginx/html
-RUN rm -rf ./* 
-COPY --from=builder /build .
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+# production stage
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
